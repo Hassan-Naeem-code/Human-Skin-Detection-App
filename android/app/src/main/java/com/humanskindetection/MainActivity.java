@@ -1,4 +1,4 @@
-package com.humanskindetection;
+package com.fictivestudios.demo;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

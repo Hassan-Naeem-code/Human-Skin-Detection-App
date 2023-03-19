@@ -1,4 +1,4 @@
-package com.humanskindetection;
+package com.fictivestudios.demo;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

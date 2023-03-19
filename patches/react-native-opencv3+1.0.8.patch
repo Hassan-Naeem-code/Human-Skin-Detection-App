@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-native-opencv3/react-native.config.js b/node_modules/react-native-opencv3/react-native.config.js
+deleted file mode 100644
+index ddf7fb6..0000000
+--- a/node_modules/react-native-opencv3/react-native.config.js
++++ /dev/null
+@@ -1,8 +0,0 @@
+-module.exports = {
+-  // config for a library is scoped under "dependency" key
+-  dependency: {
+-    "assets": [
+-      "./assets/classifiers/"
+-    ],
+-  },
+-};

@@ -25,7 +25,10 @@ target 'humanSkinDetection' do
   config = use_native_modules!
   permissions_path = '../node_modules/react-native-permissions/ios'
   pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
-  
+  pod 'RNOpencv3', :path => '../node_modules/react-native-opencv3/ios', :subspecs => [
+      'CvCamera'
+  ]  
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
   # Flags change depending on the env values.
   flags = get_default_flags()
 
