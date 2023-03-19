@@ -6081,6 +6081,11 @@ react-native-permissions@^3.8.0:
     picocolors "^1.0.0"
     pkg-dir "^5.0.0"
 
+react-native-pixel-color@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-native-pixel-color/-/react-native-pixel-color-0.0.5.tgz#3f6631cc139b92ef1e58c1e5b851bb421a06e3e6"
+  integrity sha512-S6caumdz+CbLarwJOkcjIud2gSYs2SLRqP8qGnzzql4siDGzeBH4ycih+8cPZHmUQyoo7ARJeqi6l2qru2BKLA==
+
 react-native-reanimated@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.0.2.tgz#8f7284fab2b0cd949779429e48f32d19a966bbd6"
