@@ -353,6 +353,8 @@ PODS:
   - react-native-compressor (1.6.1):
     - NextLevelSessionExporter
     - React-Core
+  - react-native-image-manipulator (1.0.6):
+    - React
   - react-native-orientation-locker (1.5.0):
     - React-Core
   - react-native-pixel-color (0.0.5):
@@ -456,6 +458,8 @@ PODS:
   - RNFS (2.20.0):
     - React-Core
   - RNGestureHandler (2.9.0):
+    - React-Core
+  - RNImageColors (1.5.2):
     - React-Core
   - RNImageCropPicker (0.39.0):
     - React-Core
@@ -564,6 +568,7 @@ DEPENDENCIES:
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - react-native-camera (from `../node_modules/react-native-camera`)
   - react-native-compressor (from `../node_modules/react-native-compressor`)
+  - react-native-image-manipulator (from `../node_modules/react-native-image-manipulator`)
   - react-native-orientation-locker (from `../node_modules/react-native-orientation-locker`)
   - react-native-pixel-color (from `../node_modules/react-native-pixel-color`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
@@ -584,6 +589,7 @@ DEPENDENCIES:
   - RNFastImage (from `../node_modules/react-native-fast-image`)
   - RNFS (from `../node_modules/react-native-fs`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNImageColors (from `../node_modules/react-native-image-colors`)
   - RNImageCropPicker (from `../node_modules/react-native-image-crop-picker`)
   - RNOpencv3/CvCamera (from `../node_modules/react-native-opencv3/ios`)
   - RNPermissions (from `../node_modules/react-native-permissions`)
@@ -663,6 +669,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-camera"
   react-native-compressor:
     :path: "../node_modules/react-native-compressor"
+  react-native-image-manipulator:
+    :path: "../node_modules/react-native-image-manipulator"
   react-native-orientation-locker:
     :path: "../node_modules/react-native-orientation-locker"
   react-native-pixel-color:
@@ -703,6 +711,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-fs"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNImageColors:
+    :path: "../node_modules/react-native-image-colors"
   RNImageCropPicker:
     :path: "../node_modules/react-native-image-crop-picker"
   RNOpencv3:
@@ -758,6 +768,7 @@ SPEC CHECKSUMS:
   React-logger: 0d58569ec51d30d1792c5e86a8e3b78d24b582c6
   react-native-camera: 3eae183c1d111103963f3dd913b65d01aef8110f
   react-native-compressor: ebcf8bc36f8e44581a8f831583caee8a27e55a01
+  react-native-image-manipulator: dd4d7f879ab00f55e3813e7119669b4a936ab973
   react-native-orientation-locker: 851f6510d8046ea2f14aa169b1e01fcd309a94ba
   react-native-pixel-color: e67eea5296746994f5a53000c5fead858381ebdc
   react-native-safe-area-context: 39c2d8be3328df5d437ac1700f4f3a4f75716acc
@@ -778,6 +789,7 @@ SPEC CHECKSUMS:
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
   RNFS: 4ac0f0ea233904cb798630b3c077808c06931688
   RNGestureHandler: 071d7a9ad81e8b83fe7663b303d132406a7d8f39
+  RNImageColors: 9ac05083b52d5c350e6972650ae3ba0e556466c1
   RNImageCropPicker: 14fe1c29298fb4018f3186f455c475ab107da332
   RNOpencv3: f958e8d843cb051c19a099b196ed7f72f5ec515a
   RNPermissions: 215c54462104b3925b412b0fb3c9c497b21c358b

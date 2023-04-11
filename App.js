@@ -9,7 +9,7 @@ import {
   Text,
 } from 'react-native';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
-
+import SkinDetector from './src/screens/skinDetector';
 // ignore warnings
 LogBox.ignoreAllLogs();
 
@@ -22,10 +22,10 @@ export default function App() {
           backgroundColor="transparent"
           barStyle="light-content"
         />
-        <View>
-          <Text>Hello</Text>
+        <View style={{flex: 1}}>
+          {/* <Text>Hello</Text> */}
+          <SkinDetector />
         </View>
-        {/* <SkinDetector /> */}
       </GestureHandlerRootView>
     </Wrapper>
   );
